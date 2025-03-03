@@ -10,7 +10,7 @@ interface NavbarProps {
   config: SiteConfig;
 }
 
-export default function Navbar({ config }: NavbarProps) {
+export default function Navbar({}: NavbarProps) {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [activeItem, setActiveItem] = useState("/");
@@ -52,8 +52,8 @@ export default function Navbar({ config }: NavbarProps) {
               className="flex items-center"
             >
               <Image
-                src="/oasis.png"
-                alt={`${config.name}`}
+                src="https://iili.io/33K58Qe.png"
+                alt="oasis"
                 width={20}
                 height={20}
                 className="h-14 w-20"

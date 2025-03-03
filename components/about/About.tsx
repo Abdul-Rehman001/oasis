@@ -74,7 +74,7 @@ export default function About({ data }: AboutProps) {
                 }}
               />
             </div>
-            {/* Decorative Elements */}
+            {/* Decorative Element */}
             <div
               className="absolute -top-4 -left-4 w-24 h-24 rounded-full opacity-20"
               style={{ backgroundColor: theme.accent }}
